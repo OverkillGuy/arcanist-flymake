@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# https://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+
+
+# A fake arc binary, outputting hardcoded errors. Used for testing
+# purposes to avoid having a whole arcanist/phab instance in the
+# test-loop
+
+cat <<EOF
+test_cli.py:4:warning (W123) Subprocess is bad
+myfile.py:10:warning (W123) Missing semicolon
+otherfile.txt:23:autofix (AUTO321) Something else
+EOF
