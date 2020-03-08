@@ -7,7 +7,7 @@ This project parses the output of `arc lint --output compiler` and reports them 
 
 # Dependencies
 - Emacs and Flymake (bundled in Emacs)
-- [Arcanist] set up with [linters](https://secure.phabricator.com/book/phabricator/article/arcanist_lint/)
+- [Arcanist](https://secure.phabricator.com/book/phabricator/article/arcanist_quick_start/), set up with [linters](https://secure.phabricator.com/book/phabricator/article/arcanist_lint/)
 
 # Installation
 
